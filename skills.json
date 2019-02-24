@@ -1,7 +1,632 @@
 {
-    "class":[
+    "classes":[
             {
             "name": "Acolyte",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Priest",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Monk",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "High Priest",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Champion",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Swordsman",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Knight",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Crusader",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Lord Knight",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Paladin",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Merchant",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Blacksmith",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Alchemist",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Whitesmith",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Creator",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Thief",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Assassin",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Rogue",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Assassin Cross",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Stalker",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Archer",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Hunter",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Sniper",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Mage",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "Wizard",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        },
+        {
+            "name": "High Wizard",
             "skill": [
                 {
                     "name": "Blessing",
