@@ -1,0 +1,29 @@
+{
+    "class":[
+            {
+            "name": "Acolyte",
+            "skill": [
+                {
+                    "name": "Blessing",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Increase Agility",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Kyrie Eleison",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Heal",
+                    "maxRank": 10   
+                },
+                {
+                    "name": "Mace Mastery",
+                    "maxRank": 10   
+                }
+            ]
+        }
+    ]
+}
