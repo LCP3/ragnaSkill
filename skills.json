@@ -29,24 +29,48 @@
             "name": "Priest",
             "skill": [
                 {
-                    "name": "Blessing",
+                    "name": "Holy Booster",
+                    "maxRank": 5   
+                },
+                {
+                    "name": "Resurrection",
+                    "maxRank": 4
+                },
+                {
+                    "name": "Aspersio",
+                    "maxRank": 2   
+                },
+                {
+                    "name": "Increase Spiritual Recovery",
                     "maxRank": 10   
                 },
                 {
-                    "name": "Increase Agility",
+                    "name": "Sanctuary",
                     "maxRank": 10   
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Clearance",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Magnificat",
+                    "maxRank":5
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Gloria",
+                    "maxRank":5
+                },
+                {
+                    "name": "Turn Undead",
+                    "maxRank":10
+                },
+                {
+                    "name": "Magnus Exorcismus",
+                    "maxRank":10
+                },
+                {
+                    "name": "Impositio Manus",
+                    "maxRank":10
                 }
             ]
         },
@@ -54,24 +78,56 @@
             "name": "Monk",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Call Spirits",
+                    "maxRank":5
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Zen",
+                    "maxRank":1
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Iron Fist",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Critical Explosion",
+                    "maxRank":5
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Asura Strike",
+                    "maxRank":5
+                },
+                {
+                    "name": "Triple Attack",
+                    "maxRank":10
+                },
+                {
+                    "name": "Chain Combo",
+                    "maxRank":5
+                },
+                {
+                    "name": "Combo Finish",
+                    "maxRank":5
+                },
+                {
+                    "name": "Flee",
+                    "maxRank":10
+                },
+                {
+                    "name": "Steel Body",
+                    "maxRank":5
+                },
+                {
+                    "name": "Investigate",
+                    "maxRank":5
+                },
+                {
+                    "name": "Spirits Recovery",
+                    "maxRank":5
+                },
+                {
+                    "name": "Body Relocation",
+                    "maxRank":1
                 }
             ]
         },
@@ -79,24 +135,48 @@
             "name": "High Priest",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Meditatio",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Lex Divina",
+                    "maxRank":5
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Lex Aeterna",
+                    "maxRank":1
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Decrease Agility",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Angelus",
+                    "maxRank":10
+                },
+                {
+                    "name": "Assumptio",
+                    "maxRank":5
+                },
+                {
+                    "name": "Suffragium",
+                    "maxRank":5
+                },
+                {
+                    "name": "Jud",
+                    "maxRank":10
+                },
+                {
+                    "name": "Magic Prayer",
+                    "maxRank":10
+                },
+                {
+                    "name": "Demon Bane",
+                    "maxRank":10
+                },
+                {
+                    "name": "Safety Wall",
+                    "maxRank":10
                 }
             ]
         },
@@ -104,24 +184,44 @@
             "name": "Champion",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Spirit Bomb Refining",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Critical Explosion",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Fist Refining",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Tiger Knuckle Fist",
+                    "maxRank":5
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Chain Crush Combo",
+                    "maxRank":10
+                },
+                {
+                    "name": "Preemptive Strike",
+                    "maxRank":10
+                },
+                {
+                    "name": "Finger Offensive",
+                    "maxRank":5
+                },
+                {
+                    "name": "Blade Stop",
+                    "maxRank":5
+                },
+                {
+                    "name": "Ki Explosion",
+                    "maxRank":5
+                },
+                {
+                    "name": "Palm Push Strike",
+                    "maxRank":5
                 }
             ]
         },
@@ -129,24 +229,28 @@
             "name": "Swordsman",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Bash",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Magnum Break",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Taunt",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Endure",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Sword Mastery",
+                    "maxRank":10
+                },
+                {
+                    "name": "Increase Recuperation",
+                    "maxRank":10
                 }
             ]
         },
@@ -154,24 +258,44 @@
             "name": "Knight",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Counter Attack",
+                    "maxRank":5
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Bowling Bash",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Heart of Steel",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Aura Blade",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "One-Hand Quicken",
+                    "maxRank":10
+                },
+                {
+                    "name": "Spear Mastery",
+                    "maxRank":10
+                },
+                {
+                    "name": "Pierce",
+                    "maxRank":10
+                },
+                {
+                    "name": "Cavalry Combat",
+                    "maxRank":5
+                },
+                {
+                    "name": "Cavalry Mastery",
+                    "maxRank":5
+                },
+                {
+                    "name": "Brandish Spear",
+                    "maxRank":10
                 }
             ]
         },
@@ -179,24 +303,48 @@
             "name": "Crusader",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
-                },
-                {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
-                },
-                {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
-                },
-                {
                     "name": "Heal",
-                    "maxRank": 10   
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Holy Cross",
+                    "maxRank":10
+                },
+                {
+                    "name": "Shie",
+                    "maxRank":5
+                },
+                {
+                    "name": "Shield Chain",
+                    "maxRank":10
+                },
+                {
+                    "name": "Auto Guard",
+                    "maxRank":10
+                },
+                {
+                    "name": "Devotion",
+                    "maxRank":5
+                },
+                {
+                    "name": "Spear Mastery",
+                    "maxRank":10
+                },
+                {
+                    "name": "Spear Quicken",
+                    "maxRank":10
+                },
+                {
+                    "name": "Cavalry Combat",
+                    "maxRank":5
+                },
+                {
+                    "name": "Cavalry Mastery",
+                    "maxRank":5
+                },
+                {
+                    "name": "Divine Protection",
+                    "maxRank":10
                 }
             ]
         },
@@ -204,24 +352,40 @@
             "name": "Lord Knight",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Concentration",
+                    "maxRank":5
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Lord's Aura",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Head Crush",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Joint Beat",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Sword Parry",
+                    "maxRank":10
+                },
+                {
+                    "name": "Spiral Pierce",
+                    "maxRank":10
+                },
+                {
+                    "name": "Call of Justice",
+                    "maxRank":5
+                },
+                {
+                    "name": "HP Alight",
+                    "maxRank":10
+                },
+                {
+                    "name": "Frenzy",
+                    "maxRank":5
                 }
             ]
         },
@@ -229,24 +393,44 @@
             "name": "Paladin",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Grand Cross",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Providence",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Shield Boomerang",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Retribution",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Selfless Shield",
+                    "maxRank":10
+                },
+                {
+                    "name": "Defending Aura",
+                    "maxRank":5
+                },
+                {
+                    "name": "Reflect Shield",
+                    "maxRank":10
+                },
+                {
+                    "name": "Sacrifice",
+                    "maxRank":5
+                },
+                {
+                    "name": "Bliss",
+                    "maxRank":5
+                },
+                {
+                    "name": "Faith",
+                    "maxRank":10
                 }
             ]
         },
@@ -254,24 +438,36 @@
             "name": "Merchant",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Cart Attack",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Enhanced Cart",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Change Cart",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Loud Exclamation",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Mammonite",
+                    "maxRank":10
+                },
+                {
+                    "name": "Buying Low",
+                    "maxRank":10
+                },
+                {
+                    "name": "OverPrice",
+                    "maxRank":10
+                },
+                {
+                    "name": "Fund Raising",
+                    "maxRank":10
                 }
             ]
         },
@@ -279,24 +475,56 @@
             "name": "Blacksmith",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Cart Revolution",
+                    "maxRank":3
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Weapon Perfection",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Over Trhust",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Adrenaline Rush",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Hammerfall",
+                    "maxRank":5
+                },
+                {
+                    "name": "Improper Means",
+                    "maxRank":2
+                },
+                {
+                    "name": "Skin Tempering",
+                    "maxRank":5
+                },
+                {
+                    "name": "Weaponry Research",
+                    "maxRank":10
+                },
+                {
+                    "name": "Weapon Making",
+                    "maxRank":10
+                },
+                {
+                    "name": "Oridecon Research",
+                    "maxRank":10
+                },
+                {
+                    "name": "Skin A Flint",
+                    "maxRank":5
+                },
+                {
+                    "name": "Magic Rock Making",
+                    "maxRank":10
+                },
+                {
+                    "name": "Refining Expert",
+                    "maxRank":10
                 }
             ]
         },
@@ -304,24 +532,52 @@
             "name": "Alchemist",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Acid Terror",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Acid Demonstration",
+                    "maxRank":5
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Axe Hammer Mastery",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Gene Modification",
+                    "maxRank":5
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Learning Potion",
+                    "maxRank":10
+                },
+                {
+                    "name": "Pharmacy",
+                    "maxRank":10
+                },
+                {
+                    "name": "Sphere Mine",
+                    "maxRank":5
+                },
+                {
+                    "name": "Sphere Parasitism",
+                    "maxRank":5
+                },
+                {
+                    "name": "Homunculus Strength I",
+                    "maxRank":5
+                },
+                {
+                    "name": "Call Homunculus",
+                    "maxRank":3
+                },
+                {
+                    "name": "Resurrect Homunculus",
+                    "maxRank":4
+                },
+                {
+                    "name": "Life Pyschic",
+                    "maxRank":10
                 }
             ]
         },
@@ -329,24 +585,48 @@
             "name": "Whitesmith",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Cart Boost",
+                    "maxRank":1
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Cart Termination",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Overthrust Max",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Repair Weapon",
+                    "maxRank":1
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Meltdown",
+                    "maxRank":10
+                },
+                {
+                    "name": "Side Split",
+                    "maxRank":10
+                },
+                {
+                    "name": "Human's Head Light",
+                    "maxRank":5
+                },
+                {
+                    "name": "Sharp Alloy Producing",
+                    "maxRank":10
+                },
+                {
+                    "name": "Manufacturing Mastery",
+                    "maxRank":10
+                },
+                {
+                    "name": "Greed",
+                    "maxRank":10
+                },
+                {
+                    "name": "Trading Master",
+                    "maxRank":5
                 }
             ]
         },
@@ -354,24 +634,56 @@
             "name": "Creator",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Powerful Acid Demonstration",
+                    "maxRank":5
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Improved Acid Demonstration",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Gene Research",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Chemical Protection Weapon",
+                    "maxRank":3
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Chemical Protection Armor",
+                    "maxRank":3
+                },
+                {
+                    "name": "Chemical Weapon Destruction",
+                    "maxRank":10
+                },
+                {
+                    "name": "Chemical Helm Destruction",
+                    "maxRank":3
+                },
+                {
+                    "name": "Chemical Shield Destruction",
+                    "maxRank":3
+                },
+                {
+                    "name": "Hp Potion Cast",
+                    "maxRank":10
+                },
+                {
+                    "name": "Mp Potion Cast",
+                    "maxRank":1
+                },
+                {
+                    "name": "Homunculus Strength II",
+                    "maxRank":10
+                },
+                {
+                    "name": "Hell Plant",
+                    "maxRank":10
+                },
+                {
+                    "name": "Super Life Psychic",
+                    "maxRank":5
                 }
             ]
         },
@@ -379,24 +691,36 @@
             "name": "Thief",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Strong Blade Attack",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Double Attack",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Improve Flee",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Hiding",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Ambush",
+                    "maxRank":10
+                },
+                {
+                    "name": "Enchant Poison",
+                    "maxRank":10
+                },
+                {
+                    "name": "Detoxify",
+                    "maxRank":1
+                },
+                {
+                    "name": "Venom Knife",
+                    "maxRank":10
                 }
             ]
         },
@@ -404,24 +728,40 @@
             "name": "Assassin",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Katar Mastery",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Grimtooth",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Twin Blade Penetration",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Sonic Blow",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Sonic Acceleration",
+                    "maxRank":5
+                },
+                {
+                    "name": "Back Sliding",
+                    "maxRank":10
+                },
+                {
+                    "name": "Enhanced Enchant Poison",
+                    "maxRank":10
+                },
+                {
+                    "name": "Virus Diffusion",
+                    "maxRank":10
+                },
+                {
+                    "name": "Venom Dart",
+                    "maxRank":5
                 }
             ]
         },
@@ -429,24 +769,52 @@
             "name": "Rogue",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Double Strafe",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Repeated Firing",
+                    "maxRank":3
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Compulsion Discount",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Snatch",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Rob",
+                    "maxRank":10
+                },
+                {
+                    "name": "Back Stab",
+                    "maxRank":10
+                },
+                {
+                    "name": "Raid",
+                    "maxRank":5
+                },
+                {
+                    "name": "Tunnel Drive",
+                    "maxRank":5
+                },
+                {
+                    "name": "Enhanced Hiding",
+                    "maxRank":5
+                },
+                {
+                    "name": "Dagger Proficiency",
+                    "maxRank":10
+                },
+                {
+                    "name": "Vulture's Eye",
+                    "maxRank":10
+                },
+                {
+                    "name": "Plagiarism",
+                    "maxRank":5
                 }
             ]
         },
@@ -454,24 +822,36 @@
             "name": "Assassin Cross",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Advanced Katar Resarch",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Assassination Heart",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Assassination Halo",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Slash",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Enhanced Hiding",
+                    "maxRank":5
+                },
+                {
+                    "name": "Enchant Deadly Poison",
+                    "maxRank":10
+                },
+                {
+                    "name": "Soul Breaker",
+                    "maxRank":10
+                },
+                {
+                    "name": "Meteor Assault",
+                    "maxRank":10
                 }
             ]
         },
@@ -479,24 +859,64 @@
             "name": "Stalker",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Triangle Shot",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Snatcher",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Rogue's Nature",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Intimidate",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Close Confine",
+                    "maxRank":5
+                },
+                {
+                    "name": "State Pursuit",
+                    "maxRank":5
+                },
+                {
+                    "name": "Disabling Strike",
+                    "maxRank":5
+                },
+                {
+                    "name": "Vanished",
+                    "maxRank":5
+                },
+                {
+                    "name": "Strip Accessory",
+                    "maxRank":3
+                },
+                {
+                    "name": "Double Accessory Strip",
+                    "maxRank":3
+                },
+                {
+                    "name": "Strip Weapon",
+                    "maxRank":3
+                },
+                {
+                    "name": "Strip Shield",
+                    "maxRank":3
+                },
+                {
+                    "name": "Strip Boots",
+                    "maxRank":3
+                },
+                {
+                    "name": "Strip Helm",
+                    "maxRank":3
+                },
+                {
+                    "name": "Strip Armor",
+                    "maxRank":3
                 }
             ]
         },
@@ -504,24 +924,32 @@
             "name": "Archer",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Double Strafe",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Vulture's Eye",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Arrow Shower",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Arrow Repel",
+                    "maxRank":5
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Owl's Eye",
+                    "maxRank":10
+                },
+                {
+                    "name": "Elemental Arrow",
+                    "maxRank":10
+                },
+                {
+                    "name": "Ankle Snare",
+                    "maxRank":5
                 }
             ]
         },
@@ -529,24 +957,44 @@
             "name": "Hunter",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Improve Concentration",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Splitting Arrows",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Heavy Arrow",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Blitz Beat",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Falcon Assault",
+                    "maxRank":5
+                },
+                {
+                    "name": "Beastmaster",
+                    "maxRank":10
+                },
+                {
+                    "name": "Lightning Arrow",
+                    "maxRank":3
+                },
+                {
+                    "name": "Frost Trap",
+                    "maxRank":5
+                },
+                {
+                    "name": "Claymore Trap",
+                    "maxRank":5
+                },
+                {
+                    "name": "Detonator",
+                    "maxRank":3
                 }
             ]
         },
@@ -554,24 +1002,48 @@
             "name": "Sniper",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Sharp Shooting",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "True Sight",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Ferity Awakening",
+                    "maxRank":5
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Multi Firing",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Stun",
+                    "maxRank":5
+                },
+                {
+                    "name": "Hunting Assault",
+                    "maxRank":10
+                },
+                {
+                    "name": "Trump Tamer",
+                    "maxRank":10
+                },
+                {
+                    "name": "Wind Walk",
+                    "maxRank":10
+                },
+                {
+                    "name": "Land Mine",
+                    "maxRank":5
+                },
+                {
+                    "name": "Trap Research",
+                    "maxRank":10
+                },
+                {
+                    "name": "Sandman Trap",
+                    "maxRank":5
                 }
             ]
         },
@@ -579,24 +1051,32 @@
             "name": "Mage",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Soul Strike",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Fire Bolt",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Ring of Fire",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Increase Spiritual Recovery",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Cold Bolt",
+                    "maxRank":10
+                },
+                {
+                    "name": "Frost Diver",
+                    "maxRank":10
+                },
+                {
+                    "name": "Lightning Bolt",
+                    "maxRank":10
                 }
             ]
         },
@@ -604,24 +1084,44 @@
             "name": "Wizard",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Magic Crasher",
+                    "maxRank":5
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Fire Ball",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Sight",
+                    "maxRank":1
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Sightrasher",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Soul Drain",
+                    "maxRank":10
+                },
+                {
+                    "name": "Energy Coat",
+                    "maxRank":5
+                },
+                {
+                    "name": "Storm Gust",
+                    "maxRank":10
+                },
+                {
+                    "name": "Jupitel Thunder",
+                    "maxRank":10
+                },
+                {
+                    "name": "Lord of Vermilion",
+                    "maxRank":10
+                },
+                {
+                    "name": "Heaven's Drive",
+                    "maxRank":10
                 }
             ]
         },
@@ -629,24 +1129,36 @@
             "name": "High Wizard",
             "skill": [
                 {
-                    "name": "Blessing",
-                    "maxRank": 10   
+                    "name": "Napalm Vulcan",
+                    "maxRank":10
                 },
                 {
-                    "name": "Increase Agility",
-                    "maxRank": 10   
+                    "name": "Magic Power",
+                    "maxRank":10
                 },
                 {
-                    "name": "Kyrie Eleison",
-                    "maxRank": 10   
+                    "name": "Alight",
+                    "maxRank":10
                 },
                 {
-                    "name": "Heal",
-                    "maxRank": 10   
+                    "name": "Flame Dash",
+                    "maxRank":10
                 },
                 {
-                    "name": "Mace Mastery",
-                    "maxRank": 10   
+                    "name": "Safety Wall",
+                    "maxRank":10
+                },
+                {
+                    "name": "Frost Nova",
+                    "maxRank":10
+                },
+                {
+                    "name": "Stone Curse",
+                    "maxRank":10
+                },
+                {
+                    "name": "Marsh Pond",
+                    "maxRank":10
                 }
             ]
         }
