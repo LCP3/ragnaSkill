@@ -23,7 +23,8 @@
                     "name": "Mace Mastery",
                     "maxRank": 10   
                 }
-            ]
+            ],
+            "jobRank": 0
         },
         {
             "name": "Priest",
@@ -72,7 +73,8 @@
                     "name": "Impositio Manus",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Monk",
@@ -129,7 +131,8 @@
                     "name": "Body Relocation",
                     "maxRank":1
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "High Priest",
@@ -178,7 +181,8 @@
                     "name": "Safety Wall",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Champion",
@@ -223,7 +227,8 @@
                     "name": "Palm Push Strike",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Swordsman",
@@ -252,7 +257,8 @@
                     "name": "Increase Recuperation",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 0
         },
         {
             "name": "Knight",
@@ -297,7 +303,8 @@
                     "name": "Brandish Spear",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Crusader",
@@ -346,7 +353,8 @@
                     "name": "Divine Protection",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Lord Knight",
@@ -387,7 +395,8 @@
                     "name": "Frenzy",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Paladin",
@@ -432,7 +441,8 @@
                     "name": "Faith",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Merchant",
@@ -469,7 +479,8 @@
                     "name": "Fund Raising",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 0
         },
         {
             "name": "Blacksmith",
@@ -526,7 +537,8 @@
                     "name": "Refining Expert",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Alchemist",
@@ -579,7 +591,8 @@
                     "name": "Life Pyschic",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Whitesmith",
@@ -628,7 +641,8 @@
                     "name": "Trading Master",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Creator",
@@ -685,7 +699,8 @@
                     "name": "Super Life Psychic",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Thief",
@@ -722,7 +737,8 @@
                     "name": "Venom Knife",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 0
         },
         {
             "name": "Assassin",
@@ -763,7 +779,8 @@
                     "name": "Venom Dart",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Rogue",
@@ -816,7 +833,8 @@
                     "name": "Plagiarism",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Assassin Cross",
@@ -853,7 +871,8 @@
                     "name": "Meteor Assault",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Stalker",
@@ -918,7 +937,8 @@
                     "name": "Strip Armor",
                     "maxRank":3
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Archer",
@@ -951,7 +971,8 @@
                     "name": "Ankle Snare",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 0
         },
         {
             "name": "Hunter",
@@ -996,7 +1017,8 @@
                     "name": "Detonator",
                     "maxRank":3
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "Sniper",
@@ -1045,7 +1067,8 @@
                     "name": "Sandman Trap",
                     "maxRank":5
                 }
-            ]
+            ],
+            "jobRank": 2
         },
         {
             "name": "Mage",
@@ -1078,7 +1101,8 @@
                     "name": "Lightning Bolt",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 0
         },
         {
             "name": "Wizard",
@@ -1123,7 +1147,8 @@
                     "name": "Heaven's Drive",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 1
         },
         {
             "name": "High Wizard",
@@ -1160,7 +1185,8 @@
                     "name": "Marsh Pond",
                     "maxRank":10
                 }
-            ]
+            ],
+            "jobRank": 2
         }
     ]
 }
