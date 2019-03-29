@@ -5,13 +5,13 @@ var maxlvl = 40;
 // Starting global skill level
 var baseSkillLevel = 0;
 // Init var to hold JSON data
-var classdata;
+var jobdata;
 
 // Select dropdown
-var classList = document.querySelector('select');
+var jobList = document.querySelector('select');
 // Select skills container
 var skillsContainer = document.getElementById('skillsContainer');
-// Select skillpoints input and display
+// Select skill points input and display
 var jobLvl = document.getElementById("jobLvl");
 var skillPoints = document.getElementById("skillPoints");
 
@@ -19,59 +19,48 @@ var skillPoints = document.getElementById("skillPoints");
 fetch('./skills.json')
 .then(res => res.json()) // Send JSON response
 .then(function(data) {
-    for (i=0;i<data.classes.length;i++) { // Loop through JSON and populate dropdown options
-        // Populate class choices
-        var classOption = document.createElement('option');
-        classOption.innerHTML = data.classes[i].name;
-        classOption.setAttribute('value', data.classes[i].name.toLowerCase());
-        classList.appendChild(classOption);
-        // If we're in the json array
-        if (i < 25) {
-            // If we're at an index of the array before a new job type
-            if (data.classes[i].jobRank == 2 && data.classes[i+1].jobRank == 0) {
+    createJobMenu(data);
+    jobChoice(data);
+    setJobLevel();
+});
+
+function createJobMenu(data) {
+    var numOfJobs = data.jobs.length;
+    for (i=0;i<numOfJobs;i++) { // Loop through JSON and populate dropdown options
+        // Populate job choices
+        var jobOption = document.createElement('option');
+        jobOption.innerHTML = data.jobs[i].name;
+        jobOption.setAttribute('value', data.jobs[i].name.toLowerCase());
+        jobList.appendChild(jobOption);
+        // If we're still within the current number of jobs, check if we're at an index just before a new section of jobs
+        if (i < numOfJobs - 1) {
+            if (data.jobs[i].jobRank == 2 && data.jobs[i+1].jobRank == 0) {
                 // Create a horizontal line to separate job groups
                 var optionLineBreak = document.createElement('optgroup');
                 optionLineBreak.label = '──────────────────';
                 optionLineBreak.setAttribute('disabled', "disabled");
-                classList.appendChild(optionLineBreak);
+                jobList.appendChild(optionLineBreak);
             }
         }
     }
-    jobChoice(data); //Callback to event listener for class choice
-});
+}
 
-// User enters a job level
-jobLvl.addEventListener('change', function() {
-
-    if (jobLvl > maxlvl) {
-        jobLvl.innerHTML = maxlvl;
-        skillPoints.innerHTML = jobLvl.value;
-    }
-    // display amount of skillpoints available based on job level
-    skillPoints.innerHTML = jobLvl.value;
-    console.log(jobLvl.value);
-    // if job is a trans job, add more skill points
-});
-
-
-
-
-// When a class is chosen
-function jobChoice(classData) {
-    // Listen for a change of the class select dropdown
-    classList.addEventListener('change', function() {
-        // Build class data HTML to the DOM with the array of skills passed through
-        buildClassData(classData);
+// When a job is chosen
+function jobChoice(jobData) {
+    // Listen for a change of the job select dropdown
+    jobList.addEventListener('change', function() {
+        // Build job data HTML to the DOM with the array of skills passed through
+        buildJobData(jobData);
     });
 }
 
-function buildClassData(data) {
+function buildJobData(data) {
         // Clear the current skill list
         skillsContainer.innerHTML = '';
-        // Store index of selected class's skills
-        var index = classList.selectedIndex;
-        // For each skill of the selected class
-        data.classes[index].skill.forEach(function(item, i) {
+        // Store index of selected job's skills
+        var index = jobList.selectedIndex;
+        // For each skill of the selected job
+        data.jobs[index].skill.forEach(function(item, i) {
             // Create div for skill info to be placed into
             var skillDiv = document.createElement('div');
             skillDiv.setAttribute('class', 'skill');
@@ -94,6 +83,8 @@ function buildClassData(data) {
             skillBtnMinus.innerHTML = "-";
             skillDiv.append(skillBtnPlus);
             skillDiv.append(skillBtnMinus);
+
+            skillDiv.dataset.maxRank = item.maxRank;
             // Select newly created div and add click listeners to buttons
             addClickListeners(i);
         });
@@ -109,15 +100,42 @@ function addClickListeners(i) {
     var skillMax = parseInt(document.querySelectorAll(".skillMax")[i].innerHTML);
     // Click events for adding & subtracting ranks from skills
     skillBtnPlus.addEventListener('click', function() {
-        if (skillRank < skillMax) {
+        // Check to see if we're within the acceptable boundaries to add skill levels
+        if (skillRank < skillMax && skillPoints.innerHTML > 0) {
+            // Add to the skill rank
             skillRank++;
+            // Subtract from total skill points
+            skillPoints.innerHTML--;
+            // Set the skill rank text to the current skill rank
             skillRankSpan.innerHTML = skillRank;
         }
     });
     skillBtnMinus.addEventListener('click', function() {
-        if (skillRank > 0) {
+        // Check to see if we're within the acceptable boundaries to subtract skill levels
+        if (skillRank > 0 && skillPoints.innerHTML >= 0) {
+            // Subtract from to the skill rank
             skillRank--;
+            // Add to the total skill points
+            skillPoints.innerHTML++;
+            // Set the skill rank text to the current skill rank
             skillRankSpan.innerHTML = skillRank;
         }
     });
 }
+
+function setJobLevel() {
+    // User enters a job level
+    jobLvl.addEventListener('input', function() {
+        // If user enters a job level higher than the maximum, set it to the max possible level
+        if (jobLvl.value > maxlvl) {
+            jobLvl.value = maxlvl;
+        }
+        // Display amount of skill points available based on job level
+        skillPoints.innerHTML = jobLvl.value;
+    });
+}
+
+// if skill > requiredLvl then show the dependant skill
+
+// if call spirits = lvl 5
+// enable zen (zen.display, zen.pointer-options)
